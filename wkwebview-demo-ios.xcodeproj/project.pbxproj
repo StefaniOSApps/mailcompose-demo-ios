@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3676282F253A228400110384 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676282E253A228400110384 /* ViewModel.swift */; };
-		36BA456C253A166000B2B5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA456B253A166000B2B5F7 /* AppDelegate.swift */; };
+		36762834253A377100110384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA456B253A166000B2B5F7 /* AppDelegate.swift */; };
 		36BA4570253A166000B2B5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA456F253A166000B2B5F7 /* ViewController.swift */; };
 		36BA4575253A166300B2B5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BA4574253A166300B2B5F7 /* Assets.xcassets */; };
 		36BA4578253A166300B2B5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BA4576253A166300B2B5F7 /* LaunchScreen.storyboard */; };
@@ -55,6 +55,7 @@
 		36BA456A253A166000B2B5F7 /* wkwebview-demo-ios */ = {
 			isa = PBXGroup;
 			children = (
+				36BA456B253A166000B2B5F7 /* AppDelegate.swift */,
 				36BA4574253A166300B2B5F7 /* Assets.xcassets */,
 				36BA4576253A166300B2B5F7 /* LaunchScreen.storyboard */,
 				36BA4579253A166300B2B5F7 /* Info.plist */,
@@ -65,7 +66,6 @@
 		36BA4583253A18C700B2B5F7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				36BA456B253A166000B2B5F7 /* AppDelegate.swift */,
 				36BA456F253A166000B2B5F7 /* ViewController.swift */,
 				3676282E253A228400110384 /* ViewModel.swift */,
 			);
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36762834253A377100110384 /* AppDelegate.swift in Sources */,
 				36BA4570253A166000B2B5F7 /* ViewController.swift in Sources */,
 				3676282F253A228400110384 /* ViewModel.swift in Sources */,
-				36BA456C253A166000B2B5F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

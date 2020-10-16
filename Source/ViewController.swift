@@ -28,9 +28,6 @@ wkwebview-demo-ios[14975:3796254] WF: _WebFilterIsActive returning: NO
 
 
 class ViewController: UIViewController {
-  enum ServiceError: Error {
-    case unknownFile
-  }
 
   private let viewModel: ViewModel
   private let webView: WKWebView = {
