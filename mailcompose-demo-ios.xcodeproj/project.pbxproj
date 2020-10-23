@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3676282F253A228400110384 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676282E253A228400110384 /* ViewModel.swift */; };
 		36762834253A377100110384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA456B253A166000B2B5F7 /* AppDelegate.swift */; };
 		36BA4570253A166000B2B5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BA456F253A166000B2B5F7 /* ViewController.swift */; };
-		36BA4575253A166300B2B5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BA4574253A166300B2B5F7 /* Assets.xcassets */; };
 		36BA4578253A166300B2B5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BA4576253A166300B2B5F7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3676282E253A228400110384 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		36BA4568253A166000B2B5F7 /* wkwebview-demo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wkwebview-demo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BA4568253A166000B2B5F7 /* mailcompose-demo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mailcompose-demo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BA456B253A166000B2B5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36BA456F253A166000B2B5F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36BA4574253A166300B2B5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36BA4577253A166300B2B5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36BA4579253A166300B2B5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,8 +34,7 @@
 		36BA455F253A166000B2B5F7 = {
 			isa = PBXGroup;
 			children = (
-				36BA4583253A18C700B2B5F7 /* Source */,
-				36BA456A253A166000B2B5F7 /* wkwebview-demo-ios */,
+				36DFC5682543475D0005B0B2 /* mailcompose-demo-ios */,
 				36BA4569253A166000B2B5F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,37 +42,28 @@
 		36BA4569253A166000B2B5F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36BA4568253A166000B2B5F7 /* wkwebview-demo-ios.app */,
+				36BA4568253A166000B2B5F7 /* mailcompose-demo-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36BA456A253A166000B2B5F7 /* wkwebview-demo-ios */ = {
-			isa = PBXGroup;
-			children = (
-				36BA456B253A166000B2B5F7 /* AppDelegate.swift */,
-				36BA4574253A166300B2B5F7 /* Assets.xcassets */,
-				36BA4576253A166300B2B5F7 /* LaunchScreen.storyboard */,
-				36BA4579253A166300B2B5F7 /* Info.plist */,
-			);
-			path = "wkwebview-demo-ios";
-			sourceTree = "<group>";
-		};
-		36BA4583253A18C700B2B5F7 /* Source */ = {
+		36DFC5682543475D0005B0B2 /* mailcompose-demo-ios */ = {
 			isa = PBXGroup;
 			children = (
 				36BA456F253A166000B2B5F7 /* ViewController.swift */,
-				3676282E253A228400110384 /* ViewModel.swift */,
+				36BA456B253A166000B2B5F7 /* AppDelegate.swift */,
+				36BA4576253A166300B2B5F7 /* LaunchScreen.storyboard */,
+				36BA4579253A166300B2B5F7 /* Info.plist */,
 			);
-			path = Source;
+			path = "mailcompose-demo-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36BA4567253A166000B2B5F7 /* wkwebview-demo-ios */ = {
+		36BA4567253A166000B2B5F7 /* mailcompose-demo-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36BA457C253A166300B2B5F7 /* Build configuration list for PBXNativeTarget "wkwebview-demo-ios" */;
+			buildConfigurationList = 36BA457C253A166300B2B5F7 /* Build configuration list for PBXNativeTarget "mailcompose-demo-ios" */;
 			buildPhases = (
 				36BA4564253A166000B2B5F7 /* Sources */,
 				36BA4565253A166000B2B5F7 /* Frameworks */,
@@ -87,9 +73,9 @@
 			);
 			dependencies = (
 			);
-			name = "wkwebview-demo-ios";
-			productName = "wkwebview-demo-ios";
-			productReference = 36BA4568253A166000B2B5F7 /* wkwebview-demo-ios.app */;
+			name = "mailcompose-demo-ios";
+			productName = "mailcompose-demo-ios";
+			productReference = 36BA4568253A166000B2B5F7 /* mailcompose-demo-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +92,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 36BA4563253A166000B2B5F7 /* Build configuration list for PBXProject "wkwebview-demo-ios" */;
+			buildConfigurationList = 36BA4563253A166000B2B5F7 /* Build configuration list for PBXProject "mailcompose-demo-ios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +105,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36BA4567253A166000B2B5F7 /* wkwebview-demo-ios */,
+				36BA4567253A166000B2B5F7 /* mailcompose-demo-ios */,
 			);
 		};
 /* End PBXProject section */
@@ -130,7 +116,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36BA4578253A166300B2B5F7 /* LaunchScreen.storyboard in Resources */,
-				36BA4575253A166300B2B5F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +128,6 @@
 			files = (
 				36762834253A377100110384 /* AppDelegate.swift in Sources */,
 				36BA4570253A166000B2B5F7 /* ViewController.swift in Sources */,
-				3676282F253A228400110384 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +268,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPTU3DH5MH;
-				INFOPLIST_FILE = "wkwebview-demo-ios/Info.plist";
+				INFOPLIST_FILE = "mailcompose-demo-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.wkwebview-demo-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.mailcompose-demo-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,12 +287,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPTU3DH5MH;
-				INFOPLIST_FILE = "wkwebview-demo-ios/Info.plist";
+				INFOPLIST_FILE = "mailcompose-demo-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.wkwebview-demo-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.best-ios-apps.mailcompose-demo-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36BA4563253A166000B2B5F7 /* Build configuration list for PBXProject "wkwebview-demo-ios" */ = {
+		36BA4563253A166000B2B5F7 /* Build configuration list for PBXProject "mailcompose-demo-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36BA457A253A166300B2B5F7 /* Debug */,
@@ -327,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36BA457C253A166300B2B5F7 /* Build configuration list for PBXNativeTarget "wkwebview-demo-ios" */ = {
+		36BA457C253A166300B2B5F7 /* Build configuration list for PBXNativeTarget "mailcompose-demo-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36BA457D253A166300B2B5F7 /* Debug */,
